@@ -1,7 +1,6 @@
-Sure! Here's a basic template for a README file for your code:
-NetCat - Python Netcat Tool
 
 NetCat is a Python implementation of the classic Netcat tool, providing a versatile and powerful way to interact with network services. It allows you to create both client and server connections, execute commands remotely, upload and download files, and more.
+
 Features
 
     Command Shell: Initiate a command shell on the target machine.
@@ -32,21 +31,20 @@ optional arguments:
 
 Examples
 
-    Initialize a command shell:
+Initialize a command shell:
 
-    css
 
 	python3 netcat.py -t 192.168.1.108 -p 5555 -l -c
 
 Upload a file to the target:
 
-css
+
 
 	python3 netcat.py -t 192.168.1.108 -p 5555 -l -u=mytest.txt
 
 Execute a command on the target:
 
-arduino
+
 
     python3 netcat.py -t 192.168.1.108 -p 5555 -l -e="cat /etc/passwd"
 
