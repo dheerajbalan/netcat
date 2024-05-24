@@ -1,2 +1,2 @@
-test
-
+argparse==1.1
+shlex==3.10.1
