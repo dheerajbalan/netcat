@@ -15,7 +15,6 @@ Flexible Usage: Supports both listening and connecting modes.
 
 Usage
 
-sql
 
 usage: netcat.py [-h] [-c] [-e EXECUTE] [-l] [-p PORT] [-t TARGET] [-u UPLOAD]
 
