@@ -4,9 +4,13 @@ NetCat is a Python implementation of the classic Netcat tool, providing a versat
 Features
 
 Command Shell: Initiate a command shell on the target machine.
+
 Execute Commands: Execute a specific command on the target machine.
+
 Upload Files: Upload files to the target machine.
+
 Multiple Connections: Handle multiple client connections concurrently using threading.
+
 Flexible Usage: Supports both listening and connecting modes.
 
 Usage
